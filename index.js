@@ -53,6 +53,6 @@ function showCommits(el) {
 
   }).fail(function(error) {
     displayError(error);
-    console.log('Something went wrong: ' + error);
+    console.log("I'm sorry, there's been an error. Please try again.");
   })
 }
